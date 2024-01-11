@@ -1,0 +1,54 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #141718;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: clip;
+}
+
+[class*="__container"] {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 0.9375rem;
+}
+.page {
+  flex: 1 1 auto;
+}
+.logo {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+.logo-white {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+.title-description {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.025rem;
+}
+._animation-up {
+  transform: translate(0, 150%);
+  opacity: 0;
+  transition: all 1.3s;
+}
+._animation-up._active,
+._active ._animation-up {
+  transform: translate(0, 0);
+  opacity: 1;
+}

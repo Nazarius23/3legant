@@ -1,0 +1,116 @@
+.footer {
+  background-color: #141718;
+}
+.footer__container {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.125rem; /*gap 50px*/
+}
+.footer__content {
+}
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.content-footer__company {
+  display: flex;
+  gap: 2rem; /*gap 32px*/
+}
+.content-footer__logo {
+}
+.content-footer__decor {
+  width: 1px;
+  height: auto;
+  background-color: #6c7275;
+}
+.content-footer__text {
+  color: #e8ecef;
+  font-size: 0.875rem;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 1.57;
+}
+.content-footer__menu {
+}
+.menu-footer {
+}
+.menu-footer__list {
+  display: flex;
+  gap: 2.5rem;
+}
+.menu-footer__item {
+}
+.menu-footer__link {
+  color: #a3a3a3;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.57;
+  transition: color 0.2s;
+}
+.menu-footer__link:hover {
+  color: #fff;
+}
+.footer__copirayte {
+  border-top: 1px solid #a3a3a3;
+  padding: 1rem 0;
+  display: flex;
+  gap: 1.75rem;
+}
+.copirayte {
+}
+.copirayte__text {
+  color: #e8ecef;
+  font-family: "Poppins";
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.66;
+}
+.copirayte__link {
+  color: #fefefe;
+  font-family: "Poppins";
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.66;
+}
+@media (max-width: 767.98px) {
+  .content-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-self: center;
+  }
+  .content-footer__company {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /*gap 32px*/
+  }
+  .footer__copirayte {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 500.98px) {
+  .menu-footer__list {
+    flex-direction: column;
+    text-align: center;
+  }
+  .content-footer {
+    gap: 3.125rem;
+  }
+  .menu-footer__list {
+    display: flex;
+    gap: 1.875rem;
+  }
+  .menu-footer__link {
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+  .footer__copirayte {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
